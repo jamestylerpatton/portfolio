@@ -16,7 +16,7 @@
 
 			<div class="right-links">
 				<!-- RESUME -->
-				<a class="mr-5" href="/patton-resume-20190821.pdf" target="_blank" rel="noopener noreferrer">
+				<a class="mr-5" href="/patton-resume-20190829.pdf" target="_blank" rel="noopener noreferrer">
 					Resume
 				</a>
 				<!-- EMAIL -->
