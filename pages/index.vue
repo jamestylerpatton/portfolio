@@ -34,6 +34,12 @@
   font-weight: 500;
   color: #35495e;
   letter-spacing: 1px;
+  overflow: hidden;
+  opacity: 0;
+}
+.title .letter{
+  opacity: 0;
+  display: inline-block;
 }
 
 .subtitle {
@@ -44,3 +50,31 @@
 }
 
 </style>
+
+<script>
+import anime from 'animejs/lib/anime.es.js';
+
+export default {
+  methods: {
+    animateLetters() {
+      let textWrapper = document.querySelector('h1.title');
+      textWrapper.style.opacity = 1;
+      textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+      anime.timeline({})
+        .add({
+          targets: 'h1.title .letter',
+          translateY: [-100,0],
+          opacity: 1,
+          easing: "easeOutExpo",
+          duration: 1400,
+          delay: (el, i) => 30 * i
+        });
+    }
+  },
+
+  mounted() {
+    this.animateLetters();
+  }
+}
+</script>
