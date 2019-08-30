@@ -5,10 +5,10 @@
     <div class="container flex items-center justify-center">
       <div class="w-9/12 py-20">
         <!-- <logo /> -->
-        <h1 class="title text-3xl lg:text-5xl">
+        <h1 class="title text-2xl md:text-3xl lg:text-5xl">
           Hi, I'm Tyler Patton
         </h1>
-        <h2 class="subtitle text-2xl lg:text-4xl">
+        <h2 class="subtitle text-1xl md:text-2xl lg:text-4xl">
           I am the Sr. Web Developer at <strong>Digital Media Management</strong>, passionate about designing and building user centered websites, interfaces, and applications. I have a strong enthusiasm for learning about the newest web technologies.
         </h2>
       </div>

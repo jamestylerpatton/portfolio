@@ -1,6 +1,6 @@
 <template>
-	<nav class="fixed left-0 top-0 w-full py-10">
-		<div class="container flex justify-between">
+	<nav class="fixed left-0 top-0 w-full pt-12 px-12">
+		<div class="flex justify-between">
 			<div class="left-links">
 				<!-- socials -->
 				<a class="inline-block mr-5" href="https://www.facebook.com/james.t.patton" target="_blank" rel="noopener noreferrer">
@@ -32,9 +32,6 @@
 	nav{
 		font-weight: 600;
 		font-size: 0.8rem;
-	}
-	.container{
-		max-width: 85%;
 	}
 	svg.feather{
 		width: 20px;

@@ -26,8 +26,21 @@ html {
 }
 
 .site-border{
-  border: 10px solid #e13d47;
+  /* border: 10px solid #e13d47; */
   background-color: #ffffff;
   min-height: 100vh;
+}
+.site-border::before{
+  content: "";
+  display: block;
+  position: fixed;
+  border: 5px solid #e13d47;
+  top: 1rem;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+}
+.site-border > div{
+  position: relative;
 }
 </style>
