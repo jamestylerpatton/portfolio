@@ -1,6 +1,5 @@
 <template>
-  <div class="flex">
-    <navigation />
+  <div class="flex w-full h-full">
 
     <div class="container flex items-center justify-center">
       <div class="w-9/12 py-20">
@@ -17,18 +16,6 @@
     <!-- <site-footer /> -->
   </div>
 </template>
-
-<script>
-import Navigation from '~/components/Navigation.vue'
-import SiteFooter from '~/components/Footer.vue'
-
-export default {
-  components: {
-    Navigation,
-    SiteFooter
-  }
-}
-</script>
 
 <style>
 /* Sample `apply` at-rules with Tailwind CSS

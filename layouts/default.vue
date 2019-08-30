@@ -1,6 +1,9 @@
 <template>
-  <div class="site-border flex justify-center">
-    <nuxt />
+  <div class="site-border-outer fixed w-full h-full">
+    <div class="site-border-inner absolute w-full h-full top-0 left-0 right-0 bottom-0 overflow-auto">
+      <navigation />
+      <nuxt />
+    </div>
   </div>
 </template>
 
@@ -25,22 +28,21 @@ html {
   margin: 0;
 }
 
-.site-border{
-  /* border: 10px solid #e13d47; */
-  background-color: #ffffff;
-  min-height: 100vh;
+.site-border-outer{
+  border: 15px solid #ffffff;
 }
-.site-border::before{
-  content: "";
-  display: block;
-  position: fixed;
+.site-border-inner{
   border: 5px solid #e13d47;
-  top: 1rem;
-  left: 1rem;
-  right: 1rem;
-  bottom: 1rem;
-}
-.site-border > div{
-  position: relative;
+  background: #ffffff;
 }
 </style>
+
+<script>
+import Navigation from '~/components/Navigation.vue'
+
+export default {
+  components: {
+    Navigation
+  }
+}
+</script>
