@@ -8,7 +8,7 @@
           Hi, I'm Tyler Patton
         </h1>
         <h2 class="subtitle text-1xl md:text-2xl lg:text-4xl">
-          I am the Sr. Web Developer at <strong>Digital Media Management</strong>, passionate about designing and building user centered websites, interfaces, and applications. I have a strong enthusiasm for learning about the newest web technologies.
+          I am a Web Developer at <strong>Digital Media Management</strong>, passionate about designing and building user centered websites, interfaces, and applications. I have a strong enthusiasm for learning about the newest web technologies.
         </h2>
       </div>
     </div>
