@@ -1,9 +1,13 @@
 <template>
-  <div class="site-border-outer fixed w-full h-full">
-    <div class="site-border-inner absolute w-full h-full top-0 left-0 right-0 bottom-0 overflow-auto">
-      <navigation />
-      <nuxt />
-    </div>
+  <div class="relative">
+
+    <navigation />
+    <nuxt />
+
+    <div class="fixed bg-primary h-1 left-0 top-0 right-0"></div>
+    <div class="fixed bg-primary h-1 left-0 bottom-0 right-0"></div>
+    <div class="fixed bg-primary w-1 left-0 bottom-0 top-0"></div>
+    <div class="fixed bg-primary w-1 right-0 bottom-0 top-0"></div>
   </div>
 </template>
 
@@ -18,7 +22,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  background-color: #e13d47;
+  /* background-color: #e13d47; */
 }
 
 *,
@@ -28,13 +32,13 @@ html {
   margin: 0;
 }
 
-.site-border-outer{
+/* .site-border-outer{
   border: 15px solid #ffffff;
 }
 .site-border-inner{
   border: 5px solid #e13d47;
   background: #ffffff;
-}
+} */
 </style>
 
 <script>
