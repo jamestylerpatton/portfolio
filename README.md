@@ -1,6 +1,8 @@
-# jtp
+# James Tyler Patton | Web Developer
 
 > James Tyler Patton&#39;s Portfolio Site
+
+Built with Vue.js and Nuxt
 
 ## Build Setup
 
