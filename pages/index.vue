@@ -76,6 +76,14 @@
           </div>
           <div class="mb-6">
             <h4 class="text-gray-800">
+              <a href="https://digitalmediamanagement.com" target="_blank" class="underline">Digital Media Management</a>
+            </h4>
+            <p>
+              – PHP, WordPress, JavaScript, GSAP, SASS
+            </p>
+          </div>
+          <div class="mb-6">
+            <h4 class="text-gray-800">
               <a href="https://cznd.co/" target="_blank" class="underline">CZND</a>
             </h4>
             <p>
