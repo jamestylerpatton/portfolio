@@ -9,7 +9,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy": "push-dir --dir=dist --branch=master --cleanup"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "nuxt": "^2.0.0",
@@ -20,6 +20,7 @@
     "animejs": "^3.1.0",
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-prettier": "^3.0.1",
+    "gh-pages": "^2.2.0",
     "prettier": "^1.16.4",
     "push-dir": "^0.4.1"
   }
