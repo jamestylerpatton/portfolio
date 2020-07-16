@@ -36,10 +36,10 @@
               – May 2014 – Aug 2015
             </p>
             <ul class="list-">
-              <li>Build and maintain responsive and secure websites</li>
-              <li>Manage web servers where websites and domain names are hosted</li>
-              <li>Write maintainable and readable and semantic code</li>
-              <li>Oversee department and supervise web development team</li>
+              <li>Lead development for Web Hosting Hub (webhostinghub.com) site redesign</li>
+              <li>Make company website (inmotionhosting.com) responsive</li>
+              <li>Learned Git, Linux/Unix, and how to develop with PHP and Ruby frameworks</li>
+              <li>Developed custom newsletters and maintenance emails to be sent out to all clients</li>
             </ul>
           </div>
         </section>
