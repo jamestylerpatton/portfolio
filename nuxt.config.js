@@ -53,6 +53,7 @@ export default {
   ** Build configuration
   */
   build: {
+    transpile: ['anime'],
     /*
     ** You can extend webpack config here
     */
