@@ -8,8 +8,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
-    "deploy": "gh-pages -d dist"
+    "generate": "nuxt build --target static && nuxt export",
+    "deploy": "gh-pages -d dist --dotfiles"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.0",

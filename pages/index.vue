@@ -3,7 +3,8 @@
 
     <div class="container w-full min-h-screen flex items-center justify-center">
       <div class="w-9/12 py-20">
-        <h1 class="title text-gray-800 text-2xl md:text-3xl lg:text-5xl">
+        <span class="text-2xl md:text-3xl lg:text-5xl align-top mr-5">&#128075;</span>
+        <h1 class="title text-gray-800 text-2xl md:text-3xl lg:text-5xl inline-block">
           Hi, I'm Tyler Patton
         </h1>
         <h2 class="subtitle text-gray-600 text-1xl md:text-2xl lg:text-4xl">
@@ -143,7 +144,7 @@
 .title {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
+  /* display: block; */
   font-weight: 500;
   letter-spacing: 1px;
   overflow: hidden;
