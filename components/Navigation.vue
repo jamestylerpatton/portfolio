@@ -4,13 +4,13 @@
 			<div class="left-links">
 				<!-- socials -->
 				<a class="inline-block mr-5" href="https://www.facebook.com/james.t.patton" target="_blank" rel="noopener noreferrer">
-					<svg class="feather"><use xlink:href="~/assets/svg/feather-sprite.svg#facebook"/></svg>
+					<Facebook></Facebook>
 				</a>
 				<a class="inline-block mr-5" href="https://www.linkedin.com/in/jamestylerpatton/" target="_blank" rel="noopener noreferrer">
-					<svg class="feather"><use xlink:href="~/assets/svg/feather-sprite.svg#linkedin"/></svg>
+					<LinkedIn></LinkedIn>
 				</a>
 				<a class="inline-block" href="https://github.com/jamestylerpatton" target="_blank" rel="noopener noreferrer">
-					<svg class="feather"><use xlink:href="~/assets/svg/feather-sprite.svg#github"/></svg>
+					<Github></Github>
 				</a>
 			</div>
 
@@ -33,7 +33,7 @@
 		font-weight: 600;
 		font-size: 0.8rem;
 	}
-	svg.feather{
+	svg{
 		width: 20px;
 		height: 20px;
 		stroke: currentColor;
@@ -43,3 +43,17 @@
 		fill: none;
 	}
 </style>
+
+<script>
+import LinkedIn from './icons/LinkedIn'
+import Facebook from './icons/Facebook'
+import Github from './icons/Github'
+
+export default {
+  components: {
+    LinkedIn,
+    Facebook,
+    Github
+  }
+}
+</script>
